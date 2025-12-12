@@ -1,4 +1,6 @@
 import axios from 'axios';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const FAKESTORE_URL = process.env.FAKESTORE_URL;
 

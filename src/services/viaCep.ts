@@ -1,4 +1,6 @@
 import axios from 'axios';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const VIACEP_URL = process.env.VIACEP_URL;
 
